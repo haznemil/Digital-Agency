@@ -1,0 +1,152 @@
+body{
+    background-color: #19191B;
+    color: white;
+}
+.contact-btn{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 50px;
+    background: none;
+    padding: 0px 30px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: lato;
+    letter-spacing: 2px;
+    transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+    font-weight: 600;
+}
+.contact-btn:hover{
+  border: 1px solid black;
+  background: none;
+  color: #000000;
+}
+.navbar{
+  padding: 30px;
+}
+.intro{
+  display: flex;
+  align-items: center;
+}
+.intro-img{
+  padding-left: 5%;
+}
+.services-btn{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 135px;
+  height: 40px;
+  border: none;
+  background: #5454D4;
+  padding: 0px 30px;
+  color: #ffffff;
+  font-size: 10px;
+  letter-spacing: 2px;
+  transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+  font-weight: 600;
+}
+.services-btn:hover{
+background: none;
+border: 1px solid #5454D4 ;
+}
+.intro h1{
+  font-weight: 900;
+  font-size: 70px;
+  width: 34rem;
+}
+.headline p{
+  width: 28rem;
+}
+.reference h1{
+  width: 35rem;
+  font-weight: 800;
+  font-size: 60px
+}
+.reference p{
+  width: 460px;
+}
+.ref-img{
+  padding-top: 40px;
+}
+.services{
+  width: fit-content;
+  text-align: center;
+  padding: ;
+}
+.services h1{
+  font-weight: 700;
+  font-size: 45px;
+  width: 37rem;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 5rem
+}
+.services p{
+  width: 21rem;
+  font-weight: 100;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.images{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.portfolio{
+  padding-top: 160px;
+}
+.portfolio img{
+  width: 400px;
+  border-radius: 20px;
+}
+.portfolio h1{
+  font-weight: 700;
+}
+.contact-btn2{
+  display: inline-block;
+  box-sizing: border-box;
+  height: 50px;
+  background: #5454D4;
+  padding: 0px 30px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: lato;
+  letter-spacing: 2px;
+  transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+  font-weight: 600;
+}
+.contact-btn2:hover{
+border: 1px solid black;
+background: white;
+color:#5454D4;
+;
+}
+.contact{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25rem;
+}
+.contact h1{
+  font-weight: 700;
+  width: 30rem;
+}
+footer{
+  background-color: aqua;
+  color: white;
+}
+a{
+  color: white;
+}
+.icon{
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 46rem;
+}
